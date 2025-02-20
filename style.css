@@ -30,10 +30,6 @@ body {
   line-height: 1.3em;
 }
 
-body p {
-  text-indent: 1.5em;
-}
-
 body p strong {
   color: var(--cor4);
   font-weight: bold;
@@ -73,6 +69,11 @@ header p {
   text-indent: 0;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 .menu {
   display: inline;
   font-weight: bold;
@@ -81,13 +82,13 @@ header p {
 .menu a {
   text-decoration: none;
   color: var(--cor1);
-  padding: 0.5em 1.5em;
+  padding: 0.5em 1em;
   font-size: 0.85em;
 }
 
 .menu a:hover {
   background-color: var(--cor3);
-  padding: 0.8em 1.5em;
+  padding: 0.8em 1em;
   border-radius: 5px 5px 0 0;
   transition-duration: 0.3s;
 }
@@ -100,6 +101,10 @@ main {
   text-align: justify;
   border-radius: 0 0 10px 10px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
+}
+
+body p {
+  text-indent: 1.5em;
 }
 
 main p a:hover {
