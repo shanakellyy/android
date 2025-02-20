@@ -10,4 +10,4 @@ Agradeço ao **Professor Gustavo Guanabara** e ao **Curso em Vídeo**, que foram
 
 ---
 
-## ❤ Acesse o site pronto [aqui](https://creativecommons.org/share-your-work/public-domain/cc0/).
+## ❤ Acesse o site pronto [aqui](https://shanakellyy.github.io/android/).
