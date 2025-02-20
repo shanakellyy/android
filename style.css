@@ -27,7 +27,6 @@
 body {
   font: 1em var(--fonte0);
   background-color: var(--cor1);
-  line-height: 1.3em;
 }
 
 body p strong {
@@ -43,14 +42,14 @@ body p a {
 
 #topo {
   background-image: linear-gradient(var(--cor3), var(--cor5));
-  padding: 0.5em;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.425);
+  padding: 0 1em 0.6em 1em;
 }
 
 header {
   color: white;
   text-align: center;
-  padding: 2em;
+  padding: 1em 1em 2em 1em;
 }
 
 header h1 {
@@ -66,7 +65,6 @@ header p {
   max-width: 500px;
   margin: auto;
   padding: 0 1em 0 1em;
-  text-indent: 0;
 }
 
 nav {
@@ -103,8 +101,9 @@ main {
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
 }
 
-body p {
+main p {
   text-indent: 1.5em;
+  line-height: 1.3em;
 }
 
 main p a:hover {
